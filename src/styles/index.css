@@ -1,0 +1,92 @@
+.content_main{
+    width: 750px;
+    height: 507px;
+    background-color: var(--color-grey-5);
+    margin: 50px auto;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content_main .logo{
+    width: 290px;
+    height: 475px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+}
+
+.content_main .conteudo{
+    width: 400px;
+    height: 400px;
+    margin: 16px;
+}
+
+.content_main .conteudo h1{
+    font-size: 26px;
+    margin-left: 25px;
+    color: var(--color-grey-1);
+}
+
+
+/* FORMULARIO */
+
+.content_main .conteudo form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0px;
+}
+
+.content_main .conteudo form input{
+    width: 300px;
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 16px; 
+    padding: 16px;
+    border: 1px solid;
+    border-color: var(--color-grey-3);
+    font-size: 16px;
+}
+
+.content_main .conteudo form input:hover{
+    border: 2px solid;
+    border-color: var(--color-primary);
+}
+
+
+.content_main .conteudo form input[type="submit"]{
+    border: none;
+    background-color: var(--color-primary);
+    font-size: 16px;
+    border-radius: 5px;
+    color: var(--color-grey-5);
+    cursor: pointer;
+}
+
+.content_main .conteudo > button{
+    border: none;
+    font-size: 16px;
+    color: var(--color-grey-1);
+    background-color: var(--color-grey-5);
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.content_main .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article > p{
+margin-left: 10px;
+margin-top: -35px;
+color: var(--color-grey-5);
+font-size: 16px;
+}
+
+.content_main .logo > img{
+    width: 200px;
+    height: 200px;
+}
